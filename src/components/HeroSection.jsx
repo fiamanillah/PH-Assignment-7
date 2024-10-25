@@ -1,7 +1,7 @@
 function HeroSection({ onAddCredit }) {
 	return (
 		<section className="max-w-screen-xl m-auto py-5 flex justify-center items-center">
-			<div className="bg-bg-shadow bg-black rounded-3xl w-full flex flex-col justify-center items-center gap-5 py-10">
+			<div className="bg-bg-shadow bg-black rounded-3xl w-full flex flex-col justify-center items-center gap-5 py-14">
 				<img src="banner-main.png" alt="" />
 				<h1 className="text-white text-4xl font-bold">
 					Assemble Your Ultimate Dream 11 Cricket Team

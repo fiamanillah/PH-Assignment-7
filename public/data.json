@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"name": "Virat Kohli",
+		"nation": "India",
+		"playingFormate": "Batsman",
+		"rating": "Right-hand-bat",
+		"price": 250000,
+		"image": "https://fi.amanillah.com/img/Virat_Kohli.jpg",
+		"avatar": "https://fi.amanillah.com/img/Virat_Kohli_Avatar.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Steve Smith",
+		"nation": "Australia",
+		"playingFormate": "Batsman",
+		"rating": "Right-hand-bat",
+		"price": 220000,
+		"image": "https://fi.amanillah.com/img/Steve_Smith.jpg",
+		"avatar": "https://fi.amanillah.com/img/Steve_Smith_Avatar.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Ben Stokes",
+		"nation": "England",
+		"playingFormate": "All-rounder",
+		"rating": "Right-arm-fast",
+		"price": 280000,
+		"image": "https://fi.amanillah.com/img/Ben_Stokes.jpg",
+		"avatar": "https://fi.amanillah.com/img/Ben_Stokes_Avatar.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Rashid Khan",
+		"nation": "Afghanistan",
+		"playingFormate": "All-rounder",
+		"rating": "Right-arm-legbreak",
+		"price": 180000,
+		"image": "https://fi.amanillah.com/img/Rashid_Khan.jpg",
+		"avatar": "https://fi.amanillah.com/img/Rashid_Khan_Avatar.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Babar Azam",
+		"nation": "Pakistan",
+		"playingFormate": "Batsman",
+		"rating": "Right-hand-bat",
+		"price": 240000,
+		"image": "https://fi.amanillah.com/img/Babar_Azam.jpg",
+		"avatar": "https://fi.amanillah.com/img/Babar_Azam_Avatar.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Kane Williamson",
+		"nation": "New Zealand",
+		"playingFormate": "Batsman",
+		"rating": "Right-hand-bat",
+		"price": 230000,
+		"image": "https://fi.amanillah.com/img/Kane_Williamson.jpg",
+		"avatar": "https://fi.amanillah.com/img/Kane_Williamson_Avatar.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Mitchell Starc",
+		"nation": "Australia",
+		"playingFormate": "Bowler",
+		"rating": "Left-arm-fast",
+		"price": 210000,
+		"image": "https://fi.amanillah.com/img/Mitchell_Starc.jpg",
+		"avatar": "https://fi.amanillah.com/img/Mitchell_Starc_Avatar.jpg"
+	},
+	{
+		"id": 8,
+		"name": "Jos Buttler",
+		"nation": "England",
+		"playingFormate": "Batsman, Wicketkeeper",
+		"rating": "Right-hand-bat",
+		"price": 200000,
+		"image": "https://fi.amanillah.com/img/Jos_Buttler.jpg",
+		"avatar": "https://fi.amanillah.com/img/Jos_Buttler_Avatar.jpg"
+	},
+	{
+		"id": 9,
+		"name": "Trent Boult",
+		"nation": "New Zealand",
+		"playingFormate": "Bowler",
+		"rating": "Left-arm-fast",
+		"price": 190000,
+		"image": "https://fi.amanillah.com/img/Trent_Boult.jpg",
+		"avatar": "https://fi.amanillah.com/img/Trent_Boult_Avatar.jpg"
+	},
+	{
+		"id": 10,
+		"name": "Shakib Al Hasan",
+		"nation": "Bangladesh",
+		"playingFormate": "All-rounder",
+		"rating": "Left-arm-orthodox",
+		"price": 210000,
+		"image": "https://fi.amanillah.com/img/Shakib_Al_Hasan.jpg",
+		"avatar": "https://fi.amanillah.com/img/Shakib_Al_Hasan_Avatar.jpg"
+	},
+	{
+		"id": 11,
+		"name": "Jasprit Bumrah",
+		"nation": "India",
+		"playingFormate": "Bowler",
+		"rating": "Right-arm-fast",
+		"price": 230000,
+		"image": "https://fi.amanillah.com/img/Jasprit_Bumrah.jpg",
+		"avatar": "https://fi.amanillah.com/img/Jasprit_Bumrah_Avatar.jpg"
+	},
+	{
+		"id": 12,
+		"name": "Quinton de Kock",
+		"nation": "South Africa",
+		"playingFormate": "Batsman, Wicketkeeper",
+		"rating": "Left-hand-bat",
+		"price": 200000,
+		"image": "https://fi.amanillah.com/img/Quinton_de_Kock.jpg",
+		"avatar": "https://fi.amanillah.com/img/Quinton_de_Kock_Avatar.jpg"
+	}
+]
