@@ -21,11 +21,11 @@ function AvailablePlayer({ players, onChoosePlayer }) {
 							{player.playingFormate}
 						</span>
 					</div>
-					<hr className="border-2 rounded-full" />
+					<hr className="border-1 rounded-full" />
 					<span className="font-bold">Rating</span>
 					<div className="flex justify-between">
-						<span className="font-bold">{player.rating}</span>{" "}
-						<span className="text-slate-500">{player.rating}</span>
+						<span className="font-bold">{player.battingStyle}</span>{" "}
+						<span className="text-slate-500">{player.bowlingStyle}</span>
 					</div>
 					<div className="flex justify-between items-center">
 						<span>price:${player.price}</span>

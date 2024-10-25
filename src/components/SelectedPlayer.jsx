@@ -7,7 +7,7 @@ function SelectedPlayer({ selectedPlayer, setSelectedTab, onDeletePlayer }) {
 						<img className="w-16 h-16 border-2 rounded-xl" src={player.avatar} alt="" />
 						<div>
 							<h2 className="text-xl font-bold">{player.name}</h2>
-							<p className="text-stone-500 text-sm">{player.rating}</p>
+							<p className="text-stone-500 text-sm">{player.playingFormate}</p>
 						</div>
 					</div>
 					<button

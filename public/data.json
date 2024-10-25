@@ -4,7 +4,8 @@
 		"name": "Virat Kohli",
 		"nation": "India",
 		"playingFormate": "Batsman",
-		"rating": "Right-hand-bat",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "None",
 		"price": 250000,
 		"image": "https://fi.amanillah.com/img/Virat_Kohli.jpg",
 		"avatar": "https://fi.amanillah.com/img/Virat_Kohli_Avatar.jpg"
@@ -14,7 +15,8 @@
 		"name": "Steve Smith",
 		"nation": "Australia",
 		"playingFormate": "Batsman",
-		"rating": "Right-hand-bat",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "None",
 		"price": 220000,
 		"image": "https://fi.amanillah.com/img/Steve_Smith.jpg",
 		"avatar": "https://fi.amanillah.com/img/Steve_Smith_Avatar.jpg"
@@ -24,7 +26,8 @@
 		"name": "Ben Stokes",
 		"nation": "England",
 		"playingFormate": "All-rounder",
-		"rating": "Right-arm-fast",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "Right-arm-fast",
 		"price": 280000,
 		"image": "https://fi.amanillah.com/img/Ben_Stokes.jpg",
 		"avatar": "https://fi.amanillah.com/img/Ben_Stokes_Avatar.jpg"
@@ -34,7 +37,8 @@
 		"name": "Rashid Khan",
 		"nation": "Afghanistan",
 		"playingFormate": "All-rounder",
-		"rating": "Right-arm-legbreak",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "Right-arm-legbreak",
 		"price": 180000,
 		"image": "https://fi.amanillah.com/img/Rashid_Khan.jpg",
 		"avatar": "https://fi.amanillah.com/img/Rashid_Khan_Avatar.jpg"
@@ -44,7 +48,8 @@
 		"name": "Babar Azam",
 		"nation": "Pakistan",
 		"playingFormate": "Batsman",
-		"rating": "Right-hand-bat",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "None",
 		"price": 240000,
 		"image": "https://fi.amanillah.com/img/Babar_Azam.jpg",
 		"avatar": "https://fi.amanillah.com/img/Babar_Azam_Avatar.jpg"
@@ -54,7 +59,8 @@
 		"name": "Kane Williamson",
 		"nation": "New Zealand",
 		"playingFormate": "Batsman",
-		"rating": "Right-hand-bat",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "None",
 		"price": 230000,
 		"image": "https://fi.amanillah.com/img/Kane_Williamson.jpg",
 		"avatar": "https://fi.amanillah.com/img/Kane_Williamson_Avatar.jpg"
@@ -64,7 +70,8 @@
 		"name": "Mitchell Starc",
 		"nation": "Australia",
 		"playingFormate": "Bowler",
-		"rating": "Left-arm-fast",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "Left-arm-fast",
 		"price": 210000,
 		"image": "https://fi.amanillah.com/img/Mitchell_Starc.jpg",
 		"avatar": "https://fi.amanillah.com/img/Mitchell_Starc_Avatar.jpg"
@@ -74,7 +81,8 @@
 		"name": "Jos Buttler",
 		"nation": "England",
 		"playingFormate": "Batsman, Wicketkeeper",
-		"rating": "Right-hand-bat",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "None",
 		"price": 200000,
 		"image": "https://fi.amanillah.com/img/Jos_Buttler.jpg",
 		"avatar": "https://fi.amanillah.com/img/Jos_Buttler_Avatar.jpg"
@@ -84,7 +92,8 @@
 		"name": "Trent Boult",
 		"nation": "New Zealand",
 		"playingFormate": "Bowler",
-		"rating": "Left-arm-fast",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "Left-arm-fast",
 		"price": 190000,
 		"image": "https://fi.amanillah.com/img/Trent_Boult.jpg",
 		"avatar": "https://fi.amanillah.com/img/Trent_Boult_Avatar.jpg"
@@ -94,7 +103,8 @@
 		"name": "Shakib Al Hasan",
 		"nation": "Bangladesh",
 		"playingFormate": "All-rounder",
-		"rating": "Left-arm-orthodox",
+		"battingStyle": "Left-hand-bat",
+		"bowlingStyle": "Left-arm-orthodox",
 		"price": 210000,
 		"image": "https://fi.amanillah.com/img/Shakib_Al_Hasan.jpg",
 		"avatar": "https://fi.amanillah.com/img/Shakib_Al_Hasan_Avatar.jpg"
@@ -104,7 +114,8 @@
 		"name": "Jasprit Bumrah",
 		"nation": "India",
 		"playingFormate": "Bowler",
-		"rating": "Right-arm-fast",
+		"battingStyle": "Right-hand-bat",
+		"bowlingStyle": "Right-arm-fast",
 		"price": 230000,
 		"image": "https://fi.amanillah.com/img/Jasprit_Bumrah.jpg",
 		"avatar": "https://fi.amanillah.com/img/Jasprit_Bumrah_Avatar.jpg"
@@ -114,7 +125,8 @@
 		"name": "Quinton de Kock",
 		"nation": "South Africa",
 		"playingFormate": "Batsman, Wicketkeeper",
-		"rating": "Left-hand-bat",
+		"battingStyle": "Left-hand-bat",
+		"bowlingStyle": "None",
 		"price": 200000,
 		"image": "https://fi.amanillah.com/img/Quinton_de_Kock.jpg",
 		"avatar": "https://fi.amanillah.com/img/Quinton_de_Kock_Avatar.jpg"

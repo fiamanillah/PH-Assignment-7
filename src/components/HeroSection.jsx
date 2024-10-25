@@ -1,3 +1,5 @@
+
+
 function HeroSection({ onAddCredit }) {
 	return (
 		<section className="max-w-screen-xl m-auto py-5 flex justify-center items-center">

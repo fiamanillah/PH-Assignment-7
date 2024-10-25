@@ -1,18 +1,20 @@
 import AvailablePlayer from "./AvailablePlayer";
 import { useEffect, useState } from "react";
 import SelectedPlayer from "./SelectedPlayer";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 
 function MainPlayer({ balance, setBalance }) {
 	const [players, setPlayers] = useState([]);
 	const [selectedTab, setSelectedTab] = useState("available");
 	const [selectedPlayer, setSelectedPlayer] = useState([]);
 
-	const lowBalanceMsg = () => toast.error("Insufficient Balance");
+	const lowBalanceMsg = () =>
+		toast.error("Not enough money to buy this player.Claim some Credit");
 	const playerExist = () => toast.error("Player already selected");
-	const playerAddSuccess = () => toast.success("Player Added successfully");
+	const playerAddSuccess = (player) =>
+		toast.success(`Congrates !! ${player.name} is now in your squad`);
 	const maximumPlayerSelected = () => toast.error("Maximum player selected");
+	const removePlayerWarn = () => toast.warn("Player Removed");
 
 	useEffect(() => {
 		fetch("data.json")
@@ -42,7 +44,7 @@ function MainPlayer({ balance, setBalance }) {
 		} else {
 			setBalance((prev) => prev - player.price);
 			setSelectedPlayer((prev) => [...prev, player]);
-			playerAddSuccess();
+			playerAddSuccess(player);
 		}
 	}
 
@@ -50,10 +52,11 @@ function MainPlayer({ balance, setBalance }) {
 		setSelectedPlayer((prev) => {
 			return prev.filter((player) => player.id != selectedPlayer.id);
 		});
+		removePlayerWarn();
 	}
 
 	return (
-		<section className="max-w-screen-xl m-auto py-5 flex flex-col justify-center items-center gap-5">
+		<section className="max-w-screen-xl min-h-[400px] m-auto py-5 flex flex-col justify-start items-center gap-5">
 			<div className="flex justify-between items-center w-full">
 				<h1 className="text-2xl font-bold">
 					{selectedTab == "available"
@@ -94,21 +97,6 @@ function MainPlayer({ balance, setBalance }) {
 					/>
 				)}
 			</div>
-
-			<ToastContainer
-				position="top-center"
-				autoClose={5000}
-				hideProgressBar={false}
-				newestOnTop={false}
-				closeOnClick
-				rtl={false}
-				pauseOnFocusLoss
-				draggable
-				pauseOnHover
-				theme="light"
-				transition:Bounce
-			/>
-
 		</section>
 	);
 }
