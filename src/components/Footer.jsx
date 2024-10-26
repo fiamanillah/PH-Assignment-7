@@ -5,7 +5,7 @@ function Footer() {
 				<img src="logo-footer.png" alt="" />
 				<div className="flex md-p:gap-5 md-p:flex-col  justify-between">
 					<div className="basis-1/4">
-						<h2 className="text-xl font-medium">About Us</h2>
+						<h2 className="text-xl font-medium mb-2">About Us</h2>
 						<p className="text-slate-400">
 							We are a passionate team dedicated to providing the best services to our
 							customers.
@@ -13,7 +13,7 @@ function Footer() {
 					</div>
 
 					<div className="basis-1/4">
-						<h2 className="text-xl font-medium">Quick Link</h2>
+						<h2 className="text-xl font-medium mb-2">Quick Link</h2>
 						<ul className="text-slate-400">
 							<li>
 								<button>Home</button>
@@ -31,8 +31,8 @@ function Footer() {
 					</div>
 
 					<div className="basis-1/4">
-						<h2 className="text-xl font-medium">Subscribe</h2>
-						<p className="text-slate-400">
+						<h2 className="text-xl font-medium mb-2">Subscribe</h2>
+						<p className="text-slate-400 mb-2">
 							Subscribe to our newsletter for the latest updates.
 						</p>
 						<div className="flex rounded-xl overflow-hidden">
