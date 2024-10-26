@@ -1,6 +1,6 @@
 function AvailablePlayer({ players, onChoosePlayer }) {
 	return (
-		<div className="grid grid-cols-3 gap-3">
+		<div className="grid grid-cols-3 gap-3 lg-t:grid-cols-2 md-p:grid-cols-1">
 			{players.map((player) => (
 				<div key={player.id} className="border-2 p-3 rounded-2xl flex flex-col gap-2">
 					<img
@@ -22,7 +22,11 @@ function AvailablePlayer({ players, onChoosePlayer }) {
 						</span>
 					</div>
 					<hr className="border-1 rounded-full" />
+					<div className="flex justify-between">
 					<span className="font-bold">Rating</span>
+					<span className="text-slate-500"> {player.rating}</span>
+					</div>
+					
 					<div className="flex justify-between">
 						<span className="font-bold">{player.battingStyle}</span>{" "}
 						<span className="text-slate-500">{player.bowlingStyle}</span>

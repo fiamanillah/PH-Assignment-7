@@ -1,9 +1,9 @@
 function Footer() {
 	return (
-		<footer className=" text-white bg-[#060919] w-full">
-			<div className="max-w-screen-xl m-auto py-5 flex flex-col justify-center items-center gap-5">
+		<footer className=" text-white bg-[#060919] w-full relative">
+			<div className="max-w-screen-xl m-auto py-5 px-[2%] flex flex-col justify-center items-center gap-5">
 				<img src="logo-footer.png" alt="" />
-				<div className="flex justify-between">
+				<div className="flex md-p:gap-5 md-p:flex-col  justify-between">
 					<div className="basis-1/4">
 						<h2 className="text-xl font-medium">About Us</h2>
 						<p className="text-slate-400">
@@ -52,10 +52,10 @@ function Footer() {
 						</div>
 					</div>
 				</div>
-                <hr className="border-slate-500 border-1 w-full" />
-                <div>
-                    <span className="text-slate-400">@2024 Your Company All Rights Reserved.</span>
-                </div>
+				<hr className="border-slate-500 border-1 w-full" />
+				<div>
+					<span className="text-slate-400">@2024 Your Company All Rights Reserved.</span>
+				</div>
 			</div>
 		</footer>
 	);

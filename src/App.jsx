@@ -38,6 +38,8 @@ function App() {
 				theme="light"
 				transition:Bounce
 			/>
+
+			
 		</div>
 	);
 }

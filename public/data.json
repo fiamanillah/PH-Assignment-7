@@ -8,7 +8,8 @@
 		"bowlingStyle": "None",
 		"price": 250000,
 		"image": "https://fi.amanillah.com/img/Virat_Kohli.jpg",
-		"avatar": "https://fi.amanillah.com/img/Virat_Kohli_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Virat_Kohli_Avatar.jpg",
+		"rating": "9/10"
 	},
 	{
 		"id": 2,
@@ -19,7 +20,8 @@
 		"bowlingStyle": "None",
 		"price": 220000,
 		"image": "https://fi.amanillah.com/img/Steve_Smith.jpg",
-		"avatar": "https://fi.amanillah.com/img/Steve_Smith_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Steve_Smith_Avatar.jpg",
+		"rating": "9/10"
 	},
 	{
 		"id": 3,
@@ -30,7 +32,8 @@
 		"bowlingStyle": "Right-arm-fast",
 		"price": 280000,
 		"image": "https://fi.amanillah.com/img/Ben_Stokes.jpg",
-		"avatar": "https://fi.amanillah.com/img/Ben_Stokes_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Ben_Stokes_Avatar.jpg",
+		"rating": "9/10"
 	},
 	{
 		"id": 4,
@@ -41,7 +44,8 @@
 		"bowlingStyle": "Right-arm-legbreak",
 		"price": 180000,
 		"image": "https://fi.amanillah.com/img/Rashid_Khan.jpg",
-		"avatar": "https://fi.amanillah.com/img/Rashid_Khan_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Rashid_Khan_Avatar.jpg",
+		"rating": "8/10"
 	},
 	{
 		"id": 5,
@@ -52,7 +56,8 @@
 		"bowlingStyle": "None",
 		"price": 240000,
 		"image": "https://fi.amanillah.com/img/Babar_Azam.jpg",
-		"avatar": "https://fi.amanillah.com/img/Babar_Azam_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Babar_Azam_Avatar.jpg",
+		"rating": "9/10"
 	},
 	{
 		"id": 6,
@@ -63,7 +68,8 @@
 		"bowlingStyle": "None",
 		"price": 230000,
 		"image": "https://fi.amanillah.com/img/Kane_Williamson.jpg",
-		"avatar": "https://fi.amanillah.com/img/Kane_Williamson_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Kane_Williamson_Avatar.jpg",
+		"rating": "9/10"
 	},
 	{
 		"id": 7,
@@ -74,7 +80,8 @@
 		"bowlingStyle": "Left-arm-fast",
 		"price": 210000,
 		"image": "https://fi.amanillah.com/img/Mitchell_Starc.jpg",
-		"avatar": "https://fi.amanillah.com/img/Mitchell_Starc_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Mitchell_Starc_Avatar.jpg",
+		"rating": "8/10"
 	},
 	{
 		"id": 8,
@@ -85,7 +92,8 @@
 		"bowlingStyle": "None",
 		"price": 200000,
 		"image": "https://fi.amanillah.com/img/Jos_Buttler.jpg",
-		"avatar": "https://fi.amanillah.com/img/Jos_Buttler_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Jos_Buttler_Avatar.jpg",
+		"rating": "8/10"
 	},
 	{
 		"id": 9,
@@ -96,7 +104,8 @@
 		"bowlingStyle": "Left-arm-fast",
 		"price": 190000,
 		"image": "https://fi.amanillah.com/img/Trent_Boult.jpg",
-		"avatar": "https://fi.amanillah.com/img/Trent_Boult_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Trent_Boult_Avatar.jpg",
+		"rating": "8/10"
 	},
 	{
 		"id": 10,
@@ -107,7 +116,8 @@
 		"bowlingStyle": "Left-arm-orthodox",
 		"price": 210000,
 		"image": "https://fi.amanillah.com/img/Shakib_Al_Hasan.jpg",
-		"avatar": "https://fi.amanillah.com/img/Shakib_Al_Hasan_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Shakib_Al_Hasan_Avatar.jpg",
+		"rating": "9/10"
 	},
 	{
 		"id": 11,
@@ -118,7 +128,8 @@
 		"bowlingStyle": "Right-arm-fast",
 		"price": 230000,
 		"image": "https://fi.amanillah.com/img/Jasprit_Bumrah.jpg",
-		"avatar": "https://fi.amanillah.com/img/Jasprit_Bumrah_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Jasprit_Bumrah_Avatar.jpg",
+		"rating": "9/10"
 	},
 	{
 		"id": 12,
@@ -129,6 +140,7 @@
 		"bowlingStyle": "None",
 		"price": 200000,
 		"image": "https://fi.amanillah.com/img/Quinton_de_Kock.jpg",
-		"avatar": "https://fi.amanillah.com/img/Quinton_de_Kock_Avatar.jpg"
+		"avatar": "https://fi.amanillah.com/img/Quinton_de_Kock_Avatar.jpg",
+		"rating": "8/10"
 	}
 ]

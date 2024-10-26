@@ -56,7 +56,7 @@ function MainPlayer({ balance, setBalance }) {
 	}
 
 	return (
-		<section className="max-w-screen-xl min-h-[400px] m-auto py-5 flex flex-col justify-start items-center gap-5">
+		<section className="max-w-screen-xl min-h-[400px] m-auto py-5 px-[2%] flex flex-col justify-start items-center gap-5">
 			<div className="flex justify-between items-center w-full">
 				<h1 className="text-2xl font-bold">
 					{selectedTab == "available"

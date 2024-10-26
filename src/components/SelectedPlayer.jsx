@@ -2,7 +2,7 @@ function SelectedPlayer({ selectedPlayer, setSelectedTab, onDeletePlayer }) {
 	return (
 		<div className="flex flex-col gap-3 w-full">
 			{selectedPlayer.map((player) => (
-				<div className="border-2 rounded-xl flex p-3 gap-4 justify-between" key={player.id}>
+				<div className="border-2 rounded-xl flex p-3 gap-4 items-center justify-between" key={player.id}>
 					<div className="flex gap-3 items-center">
 						<img className="w-16 h-16 border-2 rounded-xl" src={player.avatar} alt="" />
 						<div>
@@ -10,12 +10,15 @@ function SelectedPlayer({ selectedPlayer, setSelectedTab, onDeletePlayer }) {
 							<p className="text-stone-500 text-sm">{player.playingFormate}</p>
 						</div>
 					</div>
-					<button
-						onClick={() => {
-							onDeletePlayer(player);
-						}}>
-						<img src="delete.svg" alt="" />
-					</button>
+					<div className="flex items-center gap-3 justify-center">
+						<span>${player.price}</span>
+						<button
+							onClick={() => {
+								onDeletePlayer(player);
+							}}>
+							<img src="delete.svg" alt="" />
+						</button>
+					</div>
 				</div>
 			))}
 

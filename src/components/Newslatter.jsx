@@ -1,11 +1,11 @@
 function Newslatter() {
 	return (
 		<div
-			className="mx-auto flex flex-col justify-center items-center py-10"
+			className="mx-auto flex flex-col mix-blend-multiply	 justify-center items-center py-10"
 			style={{
 				background: "linear-gradient(to bottom, white, white 50%, #060a18 50%, #060a18)",
 			}}>
-			<div className="w-6/12 mx-auto flex flex-col justify-center items-center gap-3 py-10 relative outline-2 outline-double outline-offset-[10px] outline-slate-100 overflow-hidden rounded-xl bg-white">
+			<div className="w-6/12 lg-t:w-8/12 md-p:w-10/12 mx-auto px-3 flex flex-col justify-center items-center gap-3 py-10 relative outline-2 outline-double outline-offset-[10px] outline-slate-100 overflow-hidden rounded-xl bg-white">
 				<div
 					className="absolute inset-0 pointer-events-none transform-gpu overflow-hidden blur-2xl">
 					<div
@@ -22,7 +22,7 @@ function Newslatter() {
 				<p className="text-slate-500">
 					Get the latest updates and news right in your inbox!
 				</p>
-				<div>
+				<div className="flex">
 					<input
 						className="border-2 p-2 rounded-lg"
 						type="email"

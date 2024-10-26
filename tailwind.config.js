@@ -12,7 +12,18 @@ export default {
       backgroundImage: {
         'bg-shadow': "url('./bg-shadow.png')",
         'footer-texture': "url('/img/footer-texture.png')",
-      }
+      },
+      screens: {
+        '2xl-d': { max: '1535px' },
+
+        'xl-l': { max: '1279px' },
+
+        'lg-t': { max: '1023px' },
+
+        'md-p': { max: '767px' },
+
+        'sm-p': { max: '639px' },
+      },
     },
   },
   plugins: [],

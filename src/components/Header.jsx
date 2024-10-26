@@ -1,9 +1,9 @@
 function Header({ balance }) {
 	return (
-		<header className="max-w-screen-xl m-auto py-5 flex justify-between items-center">
+		<header className="max-w-screen-xl m-auto py-5 px-[5%] flex justify-between items-center">
 			<img src="logo.png" alt="" />
 			<div className="flex items-center gap-5">
-				<ul className="flex items-center gap-10">
+				<ul className="flex items-center gap-10 md-p:hidden">
 					<li>
 						<button> Home </button>
 					</li>
